@@ -1,0 +1,717 @@
+<object-stream>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [25, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B]](2); $tran=Transaction [id=4, txTime=2014-05-29 19:14:05.086, amount=200.0, isActive=false, lpn=123, detnPoint=E](25); $lpn=123(25); $curTxTime=2014-05-29 19:14:05.086(25)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [1, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B]](2); $tran=Transaction [id=0, txTime=2014-05-29 18:34:05.058, amount=0.0, isActive=false, lpn=123, detnPoint=A](1); $lpn=123(1); $curTxTime=2014-05-29 18:34:05.058(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [1, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B]](2); $tran=Transaction [id=0, txTime=2014-05-29 18:34:05.058, amount=0.0, isActive=false, lpn=123, detnPoint=A](1); $lpn=123(1); $curTxTime=2014-05-29 18:34:05.058(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [1, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=0, txTime=2014-05-29 18:34:05.058, amount=0.0, isActive=false, lpn=123, detnPoint=A](1); $lpn=123(1); $curTxTime=2014-05-29 18:34:05.058(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [25, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=4, txTime=2014-05-29 19:14:05.086, amount=200.0, isActive=false, lpn=123, detnPoint=E](25); $lpn=123(25); $curTxTime=2014-05-29 19:14:05.086(25)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [27, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=5, txTime=2014-05-29 19:24:05.087, amount=250.0, isActive=false, lpn=123, detnPoint=F](27); $lpn=123(27); $curTxTime=2014-05-29 19:24:05.087(27)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [29, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=6, txTime=2014-05-29 19:34:05.087, amount=300.0, isActive=false, lpn=123, detnPoint=A](29); $lpn=123(29); $curTxTime=2014-05-29 19:34:05.087(29)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [52, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=10, txTime=2014-05-29 20:14:05.095, amount=500.0, isActive=false, lpn=123, detnPoint=E](52); $lpn=123(52); $curTxTime=2014-05-29 20:14:05.095(52)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [54, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=11, txTime=2014-05-29 20:24:05.096, amount=550.0, isActive=false, lpn=123, detnPoint=F](54); $lpn=123(54); $curTxTime=2014-05-29 20:24:05.096(54)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [56, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=12, txTime=2014-05-29 20:34:05.097, amount=600.0, isActive=false, lpn=123, detnPoint=A](56); $lpn=123(56); $curTxTime=2014-05-29 20:34:05.097(56)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [79, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=16, txTime=2014-05-29 21:14:05.113, amount=800.0, isActive=false, lpn=123, detnPoint=E](79); $lpn=123(79); $curTxTime=2014-05-29 21:14:05.113(79)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [81, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=17, txTime=2014-05-29 21:24:05.115, amount=850.0, isActive=false, lpn=123, detnPoint=F](81); $lpn=123(81); $curTxTime=2014-05-29 21:24:05.115(81)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [83, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=18, txTime=2014-05-29 21:34:05.117, amount=900.0, isActive=false, lpn=123, detnPoint=A](83); $lpn=123(83); $curTxTime=2014-05-29 21:34:05.117(83)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [106, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=22, txTime=2014-05-29 22:14:05.134, amount=1100.0, isActive=false, lpn=123, detnPoint=E](106); $lpn=123(106); $curTxTime=2014-05-29 22:14:05.134(106)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [108, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=23, txTime=2014-05-29 22:24:05.139, amount=1150.0, isActive=false, lpn=123, detnPoint=F](108); $lpn=123(108); $curTxTime=2014-05-29 22:24:05.139(108)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [110, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=24, txTime=2014-05-29 22:34:05.144, amount=1200.0, isActive=false, lpn=123, detnPoint=A](110); $lpn=123(110); $curTxTime=2014-05-29 22:34:05.144(110)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [133, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=28, txTime=2014-05-29 23:14:05.168, amount=1400.0, isActive=false, lpn=123, detnPoint=E](133); $lpn=123(133); $curTxTime=2014-05-29 23:14:05.168(133)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [135, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=29, txTime=2014-05-29 23:24:05.174, amount=1450.0, isActive=false, lpn=123, detnPoint=F](135); $lpn=123(135); $curTxTime=2014-05-29 23:24:05.174(135)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [137, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=30, txTime=2014-05-29 23:34:05.179, amount=1500.0, isActive=false, lpn=123, detnPoint=A](137); $lpn=123(137); $curTxTime=2014-05-29 23:34:05.179(137)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>checked hour rule [171]</activationId>
+  <rule>checked hour rule</rule>
+  <declarations>$lpn=123(171); $curTxTime=2014-05-30 00:54:05.576(171); $tran=Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C](171)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>171</factId>
+  <objectToString>Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>checked hour rule [171]</activationId>
+  <rule>checked hour rule</rule>
+  <declarations>$lpn=123(171); $curTxTime=2014-05-30 00:54:05.576(171); $tran=Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C](171)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>checked hour rule [171]</activationId>
+  <rule>checked hour rule</rule>
+  <declarations>$lpn=123(171); $curTxTime=2014-05-30 00:54:05.576(171); $tran=Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C](171)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [137, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=30, txTime=2014-05-29 23:34:05.179, amount=1500.0, isActive=false, lpn=123, detnPoint=A](137); $lpn=123(137); $curTxTime=2014-05-29 23:34:05.179(137)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [137, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=30, txTime=2014-05-29 23:34:05.179, amount=1500.0, isActive=false, lpn=123, detnPoint=A](137); $lpn=123(137); $curTxTime=2014-05-29 23:34:05.179(137)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [135, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=29, txTime=2014-05-29 23:24:05.174, amount=1450.0, isActive=false, lpn=123, detnPoint=F](135); $lpn=123(135); $curTxTime=2014-05-29 23:24:05.174(135)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [135, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=29, txTime=2014-05-29 23:24:05.174, amount=1450.0, isActive=false, lpn=123, detnPoint=F](135); $lpn=123(135); $curTxTime=2014-05-29 23:24:05.174(135)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [133, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=28, txTime=2014-05-29 23:14:05.168, amount=1400.0, isActive=false, lpn=123, detnPoint=E](133); $lpn=123(133); $curTxTime=2014-05-29 23:14:05.168(133)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [133, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=28, txTime=2014-05-29 23:14:05.168, amount=1400.0, isActive=false, lpn=123, detnPoint=E](133); $lpn=123(133); $curTxTime=2014-05-29 23:14:05.168(133)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [110, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=24, txTime=2014-05-29 22:34:05.144, amount=1200.0, isActive=false, lpn=123, detnPoint=A](110); $lpn=123(110); $curTxTime=2014-05-29 22:34:05.144(110)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [110, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=24, txTime=2014-05-29 22:34:05.144, amount=1200.0, isActive=false, lpn=123, detnPoint=A](110); $lpn=123(110); $curTxTime=2014-05-29 22:34:05.144(110)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [108, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=23, txTime=2014-05-29 22:24:05.139, amount=1150.0, isActive=false, lpn=123, detnPoint=F](108); $lpn=123(108); $curTxTime=2014-05-29 22:24:05.139(108)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [108, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=23, txTime=2014-05-29 22:24:05.139, amount=1150.0, isActive=false, lpn=123, detnPoint=F](108); $lpn=123(108); $curTxTime=2014-05-29 22:24:05.139(108)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [106, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=22, txTime=2014-05-29 22:14:05.134, amount=1100.0, isActive=false, lpn=123, detnPoint=E](106); $lpn=123(106); $curTxTime=2014-05-29 22:14:05.134(106)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [106, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=22, txTime=2014-05-29 22:14:05.134, amount=1100.0, isActive=false, lpn=123, detnPoint=E](106); $lpn=123(106); $curTxTime=2014-05-29 22:14:05.134(106)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [83, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=18, txTime=2014-05-29 21:34:05.117, amount=900.0, isActive=false, lpn=123, detnPoint=A](83); $lpn=123(83); $curTxTime=2014-05-29 21:34:05.117(83)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [83, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=18, txTime=2014-05-29 21:34:05.117, amount=900.0, isActive=false, lpn=123, detnPoint=A](83); $lpn=123(83); $curTxTime=2014-05-29 21:34:05.117(83)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [81, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=17, txTime=2014-05-29 21:24:05.115, amount=850.0, isActive=false, lpn=123, detnPoint=F](81); $lpn=123(81); $curTxTime=2014-05-29 21:24:05.115(81)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [81, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=17, txTime=2014-05-29 21:24:05.115, amount=850.0, isActive=false, lpn=123, detnPoint=F](81); $lpn=123(81); $curTxTime=2014-05-29 21:24:05.115(81)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [79, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=16, txTime=2014-05-29 21:14:05.113, amount=800.0, isActive=false, lpn=123, detnPoint=E](79); $lpn=123(79); $curTxTime=2014-05-29 21:14:05.113(79)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [79, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=16, txTime=2014-05-29 21:14:05.113, amount=800.0, isActive=false, lpn=123, detnPoint=E](79); $lpn=123(79); $curTxTime=2014-05-29 21:14:05.113(79)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [56, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=12, txTime=2014-05-29 20:34:05.097, amount=600.0, isActive=false, lpn=123, detnPoint=A](56); $lpn=123(56); $curTxTime=2014-05-29 20:34:05.097(56)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [56, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=12, txTime=2014-05-29 20:34:05.097, amount=600.0, isActive=false, lpn=123, detnPoint=A](56); $lpn=123(56); $curTxTime=2014-05-29 20:34:05.097(56)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [54, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=11, txTime=2014-05-29 20:24:05.096, amount=550.0, isActive=false, lpn=123, detnPoint=F](54); $lpn=123(54); $curTxTime=2014-05-29 20:24:05.096(54)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [54, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=11, txTime=2014-05-29 20:24:05.096, amount=550.0, isActive=false, lpn=123, detnPoint=F](54); $lpn=123(54); $curTxTime=2014-05-29 20:24:05.096(54)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [52, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=10, txTime=2014-05-29 20:14:05.095, amount=500.0, isActive=false, lpn=123, detnPoint=E](52); $lpn=123(52); $curTxTime=2014-05-29 20:14:05.095(52)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [52, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=10, txTime=2014-05-29 20:14:05.095, amount=500.0, isActive=false, lpn=123, detnPoint=E](52); $lpn=123(52); $curTxTime=2014-05-29 20:14:05.095(52)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [29, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=6, txTime=2014-05-29 19:34:05.087, amount=300.0, isActive=false, lpn=123, detnPoint=A](29); $lpn=123(29); $curTxTime=2014-05-29 19:34:05.087(29)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [29, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=6, txTime=2014-05-29 19:34:05.087, amount=300.0, isActive=false, lpn=123, detnPoint=A](29); $lpn=123(29); $curTxTime=2014-05-29 19:34:05.087(29)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [27, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=5, txTime=2014-05-29 19:24:05.087, amount=250.0, isActive=false, lpn=123, detnPoint=F](27); $lpn=123(27); $curTxTime=2014-05-29 19:24:05.087(27)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [27, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=5, txTime=2014-05-29 19:24:05.087, amount=250.0, isActive=false, lpn=123, detnPoint=F](27); $lpn=123(27); $curTxTime=2014-05-29 19:24:05.087(27)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [25, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=4, txTime=2014-05-29 19:14:05.086, amount=200.0, isActive=false, lpn=123, detnPoint=E](25); $lpn=123(25); $curTxTime=2014-05-29 19:14:05.086(25)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [25, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=4, txTime=2014-05-29 19:14:05.086, amount=200.0, isActive=false, lpn=123, detnPoint=E](25); $lpn=123(25); $curTxTime=2014-05-29 19:14:05.086(25)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [1, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=0, txTime=2014-05-29 18:34:05.058, amount=0.0, isActive=false, lpn=123, detnPoint=A](1); $lpn=123(1); $curTxTime=2014-05-29 18:34:05.058(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [1, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]](2); $tran=Transaction [id=0, txTime=2014-05-29 18:34:05.058, amount=0.0, isActive=false, lpn=123, detnPoint=A](1); $lpn=123(1); $curTxTime=2014-05-29 18:34:05.058(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [1, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]](2); $tran=Transaction [id=0, txTime=2014-05-29 18:34:05.058, amount=0.0, isActive=false, lpn=123, detnPoint=A](1); $lpn=123(1); $curTxTime=2014-05-29 18:34:05.058(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [25, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]](2); $tran=Transaction [id=4, txTime=2014-05-29 19:14:05.086, amount=200.0, isActive=false, lpn=123, detnPoint=E](25); $lpn=123(25); $curTxTime=2014-05-29 19:14:05.086(25)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [27, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]](2); $tran=Transaction [id=5, txTime=2014-05-29 19:24:05.087, amount=250.0, isActive=false, lpn=123, detnPoint=F](27); $lpn=123(27); $curTxTime=2014-05-29 19:24:05.087(27)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [29, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]](2); $tran=Transaction [id=6, txTime=2014-05-29 19:34:05.087, amount=300.0, isActive=false, lpn=123, detnPoint=A](29); $lpn=123(29); $curTxTime=2014-05-29 19:34:05.087(29)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [52, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]](2); $tran=Transaction [id=10, txTime=2014-05-29 20:14:05.095, amount=500.0, isActive=false, lpn=123, detnPoint=E](52); $lpn=123(52); $curTxTime=2014-05-29 20:14:05.095(52)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [54, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]](2); $tran=Transaction [id=11, txTime=2014-05-29 20:24:05.096, amount=550.0, isActive=false, lpn=123, detnPoint=F](54); $lpn=123(54); $curTxTime=2014-05-29 20:24:05.096(54)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [56, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]](2); $tran=Transaction [id=12, txTime=2014-05-29 20:34:05.097, amount=600.0, isActive=false, lpn=123, detnPoint=A](56); $lpn=123(56); $curTxTime=2014-05-29 20:34:05.097(56)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [79, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]](2); $tran=Transaction [id=16, txTime=2014-05-29 21:14:05.113, amount=800.0, isActive=false, lpn=123, detnPoint=E](79); $lpn=123(79); $curTxTime=2014-05-29 21:14:05.113(79)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [81, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]](2); $tran=Transaction [id=17, txTime=2014-05-29 21:24:05.115, amount=850.0, isActive=false, lpn=123, detnPoint=F](81); $lpn=123(81); $curTxTime=2014-05-29 21:24:05.115(81)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [83, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]](2); $tran=Transaction [id=18, txTime=2014-05-29 21:34:05.117, amount=900.0, isActive=false, lpn=123, detnPoint=A](83); $lpn=123(83); $curTxTime=2014-05-29 21:34:05.117(83)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [106, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]](2); $tran=Transaction [id=22, txTime=2014-05-29 22:14:05.134, amount=1100.0, isActive=false, lpn=123, detnPoint=E](106); $lpn=123(106); $curTxTime=2014-05-29 22:14:05.134(106)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [108, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]](2); $tran=Transaction [id=23, txTime=2014-05-29 22:24:05.139, amount=1150.0, isActive=false, lpn=123, detnPoint=F](108); $lpn=123(108); $curTxTime=2014-05-29 22:24:05.139(108)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [110, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]](2); $tran=Transaction [id=24, txTime=2014-05-29 22:34:05.144, amount=1200.0, isActive=false, lpn=123, detnPoint=A](110); $lpn=123(110); $curTxTime=2014-05-29 22:34:05.144(110)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [133, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]](2); $tran=Transaction [id=28, txTime=2014-05-29 23:14:05.168, amount=1400.0, isActive=false, lpn=123, detnPoint=E](133); $lpn=123(133); $curTxTime=2014-05-29 23:14:05.168(133)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [135, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]](2); $tran=Transaction [id=29, txTime=2014-05-29 23:24:05.174, amount=1450.0, isActive=false, lpn=123, detnPoint=F](135); $lpn=123(135); $curTxTime=2014-05-29 23:24:05.174(135)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [137, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]](2); $tran=Transaction [id=30, txTime=2014-05-29 23:34:05.179, amount=1500.0, isActive=false, lpn=123, detnPoint=A](137); $lpn=123(137); $curTxTime=2014-05-29 23:34:05.179(137)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect in hour rule [184, 179, 178]</activationId>
+  <rule>collect in hour rule</rule>
+  <declarations>$tran=Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D](178); $stat=Statistic [maxAmtTran=Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D], lpn=null, transactions=[Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]], detnPoints=[B, C, D], detnPointsStr=null](184); $trans=[Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]](179); $lpn=123(178); $curTxTime=2014-05-30 01:04:05.579(178)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>checked hour rule [178]</activationId>
+  <rule>checked hour rule</rule>
+  <declarations>$lpn=123(178); $curTxTime=2014-05-30 01:04:05.579(178); $tran=Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D](178)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>178</factId>
+  <objectToString>Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect in hour rule [184, 179, 178]</activationId>
+  <rule>collect in hour rule</rule>
+  <declarations>$tran=Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D](178); $stat=Statistic [maxAmtTran=Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D], lpn=null, transactions=[Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]], detnPoints=[B, C, D], detnPointsStr=null](184); $trans=[Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]](179); $lpn=123(178); $curTxTime=2014-05-30 01:04:05.579(178)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [166, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]](2); $tran=Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B](166); $lpn=123(166); $curTxTime=2014-05-30 00:44:05.229(166)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>5</type>
+  <activationId>collect out of hour rule [166, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]](2); $tran=Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B](166); $lpn=123(166); $curTxTime=2014-05-30 00:44:05.229(166)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect in hour rule [184, 179, 178]</activationId>
+  <rule>collect in hour rule</rule>
+  <declarations>$tran=Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D](178); $stat=Statistic [maxAmtTran=Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D], lpn=null, transactions=[Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B], Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]], detnPoints=[B, C, D], detnPointsStr=null](184); $trans=[Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]](179); $lpn=123(178); $curTxTime=2014-05-30 01:04:05.579(178)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>5</type>
+  <activationId>collect in hour rule [184, 179, 178]</activationId>
+  <rule>collect in hour rule</rule>
+  <declarations>$tran=Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D](178); $stat=Statistic [maxAmtTran=Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D], lpn=null, transactions=[Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]], detnPoints=[C, D], detnPointsStr=null](184); $trans=[Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]](179); $lpn=123(178); $curTxTime=2014-05-30 01:04:05.579(178)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>3</type>
+  <factId>166</factId>
+  <objectToString>Transaction [id=37, txTime=2014-05-30 00:44:05.229, amount=1850.0, isActive=true, lpn=123, detnPoint=B]</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [171, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]](2); $tran=Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C](171); $lpn=123(171); $curTxTime=2014-05-30 00:54:05.576(171)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>5</type>
+  <activationId>collect out of hour rule [171, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A], Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]](2); $tran=Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C](171); $lpn=123(171); $curTxTime=2014-05-30 00:54:05.576(171)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>3</type>
+  <factId>171</factId>
+  <objectToString>Transaction [id=38, txTime=2014-05-30 00:54:05.576, amount=1900.0, isActive=true, lpn=123, detnPoint=C]</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>collect out of hour rule [178, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D](178); $lpn=123(178); $curTxTime=2014-05-30 01:04:05.579(178)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>5</type>
+  <activationId>collect out of hour rule [178, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D](178); $lpn=123(178); $curTxTime=2014-05-30 01:04:05.579(178)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>5</type>
+  <activationId>checked hour rule [178]</activationId>
+  <rule>checked hour rule</rule>
+  <declarations>$lpn=123(178); $curTxTime=2014-05-30 01:04:05.579(178); $tran=Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D](178)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>3</type>
+  <factId>178</factId>
+  <objectToString>Transaction [id=39, txTime=2014-05-30 01:04:05.579, amount=1950.0, isActive=true, lpn=123, detnPoint=D]</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect in hour rule [-1, -1, -1]</activationId>
+  <rule>collect in hour rule</rule>
+  <declarations></declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [133, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=28, txTime=2014-05-29 23:14:05.168, amount=1400.0, isActive=false, lpn=123, detnPoint=E](133); $lpn=123(133); $curTxTime=2014-05-29 23:14:05.168(133)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [133, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=28, txTime=2014-05-29 23:14:05.168, amount=1400.0, isActive=false, lpn=123, detnPoint=E](133); $lpn=123(133); $curTxTime=2014-05-29 23:14:05.168(133)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [110, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=24, txTime=2014-05-29 22:34:05.144, amount=1200.0, isActive=false, lpn=123, detnPoint=A](110); $lpn=123(110); $curTxTime=2014-05-29 22:34:05.144(110)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [110, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=24, txTime=2014-05-29 22:34:05.144, amount=1200.0, isActive=false, lpn=123, detnPoint=A](110); $lpn=123(110); $curTxTime=2014-05-29 22:34:05.144(110)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [108, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=23, txTime=2014-05-29 22:24:05.139, amount=1150.0, isActive=false, lpn=123, detnPoint=F](108); $lpn=123(108); $curTxTime=2014-05-29 22:24:05.139(108)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [108, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=23, txTime=2014-05-29 22:24:05.139, amount=1150.0, isActive=false, lpn=123, detnPoint=F](108); $lpn=123(108); $curTxTime=2014-05-29 22:24:05.139(108)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [106, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=22, txTime=2014-05-29 22:14:05.134, amount=1100.0, isActive=false, lpn=123, detnPoint=E](106); $lpn=123(106); $curTxTime=2014-05-29 22:14:05.134(106)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [106, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=22, txTime=2014-05-29 22:14:05.134, amount=1100.0, isActive=false, lpn=123, detnPoint=E](106); $lpn=123(106); $curTxTime=2014-05-29 22:14:05.134(106)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [56, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=12, txTime=2014-05-29 20:34:05.097, amount=600.0, isActive=false, lpn=123, detnPoint=A](56); $lpn=123(56); $curTxTime=2014-05-29 20:34:05.097(56)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [56, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=12, txTime=2014-05-29 20:34:05.097, amount=600.0, isActive=false, lpn=123, detnPoint=A](56); $lpn=123(56); $curTxTime=2014-05-29 20:34:05.097(56)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [54, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=11, txTime=2014-05-29 20:24:05.096, amount=550.0, isActive=false, lpn=123, detnPoint=F](54); $lpn=123(54); $curTxTime=2014-05-29 20:24:05.096(54)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [54, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=11, txTime=2014-05-29 20:24:05.096, amount=550.0, isActive=false, lpn=123, detnPoint=F](54); $lpn=123(54); $curTxTime=2014-05-29 20:24:05.096(54)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [79, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=16, txTime=2014-05-29 21:14:05.113, amount=800.0, isActive=false, lpn=123, detnPoint=E](79); $lpn=123(79); $curTxTime=2014-05-29 21:14:05.113(79)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [79, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=16, txTime=2014-05-29 21:14:05.113, amount=800.0, isActive=false, lpn=123, detnPoint=E](79); $lpn=123(79); $curTxTime=2014-05-29 21:14:05.113(79)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [52, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=10, txTime=2014-05-29 20:14:05.095, amount=500.0, isActive=false, lpn=123, detnPoint=E](52); $lpn=123(52); $curTxTime=2014-05-29 20:14:05.095(52)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [52, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=10, txTime=2014-05-29 20:14:05.095, amount=500.0, isActive=false, lpn=123, detnPoint=E](52); $lpn=123(52); $curTxTime=2014-05-29 20:14:05.095(52)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [135, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=29, txTime=2014-05-29 23:24:05.174, amount=1450.0, isActive=false, lpn=123, detnPoint=F](135); $lpn=123(135); $curTxTime=2014-05-29 23:24:05.174(135)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [135, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=29, txTime=2014-05-29 23:24:05.174, amount=1450.0, isActive=false, lpn=123, detnPoint=F](135); $lpn=123(135); $curTxTime=2014-05-29 23:24:05.174(135)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [83, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=18, txTime=2014-05-29 21:34:05.117, amount=900.0, isActive=false, lpn=123, detnPoint=A](83); $lpn=123(83); $curTxTime=2014-05-29 21:34:05.117(83)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [83, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=18, txTime=2014-05-29 21:34:05.117, amount=900.0, isActive=false, lpn=123, detnPoint=A](83); $lpn=123(83); $curTxTime=2014-05-29 21:34:05.117(83)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [29, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=6, txTime=2014-05-29 19:34:05.087, amount=300.0, isActive=false, lpn=123, detnPoint=A](29); $lpn=123(29); $curTxTime=2014-05-29 19:34:05.087(29)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [29, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=6, txTime=2014-05-29 19:34:05.087, amount=300.0, isActive=false, lpn=123, detnPoint=A](29); $lpn=123(29); $curTxTime=2014-05-29 19:34:05.087(29)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [137, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=30, txTime=2014-05-29 23:34:05.179, amount=1500.0, isActive=false, lpn=123, detnPoint=A](137); $lpn=123(137); $curTxTime=2014-05-29 23:34:05.179(137)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [137, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=30, txTime=2014-05-29 23:34:05.179, amount=1500.0, isActive=false, lpn=123, detnPoint=A](137); $lpn=123(137); $curTxTime=2014-05-29 23:34:05.179(137)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [81, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=17, txTime=2014-05-29 21:24:05.115, amount=850.0, isActive=false, lpn=123, detnPoint=F](81); $lpn=123(81); $curTxTime=2014-05-29 21:24:05.115(81)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [81, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=17, txTime=2014-05-29 21:24:05.115, amount=850.0, isActive=false, lpn=123, detnPoint=F](81); $lpn=123(81); $curTxTime=2014-05-29 21:24:05.115(81)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [27, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=5, txTime=2014-05-29 19:24:05.087, amount=250.0, isActive=false, lpn=123, detnPoint=F](27); $lpn=123(27); $curTxTime=2014-05-29 19:24:05.087(27)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [27, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=5, txTime=2014-05-29 19:24:05.087, amount=250.0, isActive=false, lpn=123, detnPoint=F](27); $lpn=123(27); $curTxTime=2014-05-29 19:24:05.087(27)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [25, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=4, txTime=2014-05-29 19:14:05.086, amount=200.0, isActive=false, lpn=123, detnPoint=E](25); $lpn=123(25); $curTxTime=2014-05-29 19:14:05.086(25)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [25, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=4, txTime=2014-05-29 19:14:05.086, amount=200.0, isActive=false, lpn=123, detnPoint=E](25); $lpn=123(25); $curTxTime=2014-05-29 19:14:05.086(25)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>collect out of hour rule [1, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=0, txTime=2014-05-29 18:34:05.058, amount=0.0, isActive=false, lpn=123, detnPoint=A](1); $lpn=123(1); $curTxTime=2014-05-29 18:34:05.058(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>collect out of hour rule [1, 2, 0]</activationId>
+  <rule>collect out of hour rule</rule>
+  <declarations>$activeTrans=[Transaction [id=34, txTime=2014-05-30 00:14:05.21, amount=1700.0, isActive=true, lpn=123, detnPoint=E], Transaction [id=35, txTime=2014-05-30 00:24:05.216, amount=1750.0, isActive=true, lpn=123, detnPoint=F], Transaction [id=36, txTime=2014-05-30 00:34:05.222, amount=1800.0, isActive=true, lpn=123, detnPoint=A]](2); $tran=Transaction [id=0, txTime=2014-05-29 18:34:05.058, amount=0.0, isActive=false, lpn=123, detnPoint=A](1); $lpn=123(1); $curTxTime=2014-05-29 18:34:05.058(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+</object-stream>

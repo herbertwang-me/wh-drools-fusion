@@ -1,0 +1,22 @@
+package com.sample
+ 
+import com.sample.DroolsTest.Message;
+ 
+rule "Hello World"
+	#date-effective '01-May-2014'
+	#date-exptires '02-May-2015'
+	when
+		m : Message( status == Message.HELLO, myMessage : message )
+	then
+		System.out.println( myMessage ); 
+		m.setMessage( "Goodbye cruel world" );
+		m.setStatus( Message.GOODBYE );
+		update( m );
+end
+
+rule "GoodBye"
+	when
+		Message( status == Message.GOODBYE, myMessage : message )
+	then
+		System.out.println( myMessage );
+end

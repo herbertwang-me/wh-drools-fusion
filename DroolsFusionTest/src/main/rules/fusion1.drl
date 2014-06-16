@@ -1,0 +1,66 @@
+#created on: 2014-5-26
+package com.ibm.its.df.test
+
+import com.sample.DroolsFusionTest.Message;
+import com.sample.DroolsFusionTest.CheckingAccount;
+
+#list any import classes here.
+
+declare StockTick 
+ @role( event ) 
+ 
+ datetime : java.util.Date 
+ symbol : String 
+ price : double 
+end
+
+declare CheckingAccount 
+ @role( event ) 
+ @timestamp(txTime)
+ #@duration(endTxTime)
+end
+
+rule "Your First Rule"
+	
+	when
+		#conditions
+		$msg:Message(status == 0) from entry-point "hello Stream 1"
+	then 
+		#actions
+		#System.out.println("say hello");
+end
+
+rule "hello Stream"
+	
+	when
+		#conditions
+		$msg:Message(status == 0) from entry-point "hello Stream 2"
+		$ca:CheckingAccount(balance > 10)
+	then 
+		#actions
+		System.out.println("say hello");
+end
+
+rule "Temporal"
+	
+	when
+		#conditions
+		ca1:CheckingAccount() from entry-point "temporal Stream"
+		ca2:CheckingAccount(this after[1s,5s] ca1) from entry-point "temporal Stream"
+	then 
+		#actions
+		System.out.println("checked account" + ca2.getAccountId());
+end
+
+rule "StreamMode 1"
+	
+	when
+		#conditions
+		ca1:CheckingAccount() from entry-point "StreamMode1"
+		avgBal: Number( doubleValue >= 50 ) from accumulate(
+			CheckingAccount( b : balance ) over window:time( 10m ) from entry-point "StreamMode1",
+			average( b ) ) 
+	then 
+		#actions
+		System.out.println("checked account:" + ca1.getAccountId() + " time:" + ca1.getTxTime() + " balance:" + ca1.getBalance() + " avgBal:" + avgBal);
+end

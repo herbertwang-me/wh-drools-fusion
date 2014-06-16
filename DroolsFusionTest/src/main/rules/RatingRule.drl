@@ -1,0 +1,36 @@
+#created on: 2014-5-26
+package com.ibm.its.df.test
+
+import com.sample.RatingRuleTest.Transaction;
+import com.sample.RatingRuleTest.Statistic;
+
+#list any import classes here.
+
+declare Transaction 
+ @role( event ) 
+ @timestamp(txTime)
+ #@duration(endTxTime)
+end
+
+declare Statistic 
+ @role( fact ) 
+end
+
+rule "StreamMode 1"
+	duration(30s)
+	when
+		#conditions
+		#tran:Transaction(tranAmt: amount) #from entry-point "StreamMode1"
+		#tran:Statistic(maxAmtStat: maxAmt)
+		maxAmt: Number(doubleValue > 0 ) from accumulate(
+		#maxAmt: Statistic() from accumulate(
+			Transaction( amt : amount ) over window:time( 1m ),
+			#Transaction( amt : amount ) over window:length( 10 ),
+			#result(amt),
+			max( amt ) ) 
+	then 
+		#actions
+		#System.out.println("checked account:" + tran.getId() + " time:" + tran.getTxTime() + " amount:" + tran.getAmount() + " maxAmt:" + maxAmt);
+		System.out.println(" maxAmt:" + maxAmt);
+		#tran.setMaxAmt(maxAmt.doubleValue());
+end

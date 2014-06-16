@@ -1,0 +1,85 @@
+#created on: 2014-5-26
+package com.ibm.its.df.test
+
+import com.rating.hour.RatingRuleTimeWIndowTest.Transaction;
+import com.rating.hour.RatingRuleTimeWIndowTest.Statistic;
+import java.util.*;
+
+#list any import classes here.
+
+declare Transaction 
+ @role( event ) 
+ @timestamp(txTime)
+end
+
+declare Statistic 
+ @role( fact ) 
+end
+
+rule 'default rule'
+	when
+		#conditions
+	then 
+		#actions
+		System.out.println("default flow from time window");
+end
+
+rule 'collect out of hour rule'
+	salience 10
+	when
+		#conditions
+		$activeTrans: ArrayList(size > 0) from collect( Transaction(isActive == true) over window:time( 1h ) ) 
+		$tran: Transaction($lpn: lpn, $curTxTime: txTime, isActive == true, this not memberOf $activeTrans)
+	then 
+		#actions
+		/*
+		for(Object obj : $activeTrans){
+			Transaction transaction = (Transaction)obj;
+			transaction.setIsActive(false);
+			retract(transaction);
+		}
+		*/
+		$tran.setIsActive(false);
+		//retract($tran);
+		//System.out.println("set inactive");
+end
+
+rule 'checked hour rule'
+	salience 20
+	when
+		#conditions
+		$tran: Transaction($lpn: lpn, $curTxTime: txTime, checked == false)
+	then 
+		#actions
+		$tran.setChecked(true);
+		//retract($tran);
+end
+
+rule 'collect in hour rule'
+	salience 30
+	when
+		#conditions
+		$tran: Transaction($lpn: lpn, $curTxTime: txTime, isActive == true, checked == false)
+		$trans: ArrayList(size > 0 ) from collect( Transaction(lpn == $lpn, isActive == true, txTime before[0s, 1h] $curTxTime, detnPoint in ('B', 'C', 'D')) over window:time( 1h ) ) 
+		$stat: Statistic(detnPointsStr matches 'BCD') from accumulate ( $t:Transaction($detnPoint: detnPoint) from $trans, 
+					init(Statistic stat = new Statistic(); double maxAmount = 0;), 
+					action(
+						stat.getDetnPoints().add($detnPoint);
+						stat.getTransactions().add($t);
+						if($t.getAmount() > maxAmount){
+							stat.setMaxAmtTran($t);
+						}
+						),
+					result(stat)
+		)
+	then 
+		#actions
+		//System.out.println("yahoo");
+		System.out.println($stat);
+		for(Object obj : $trans){
+			Transaction transaction = (Transaction)obj;
+			//transaction.setIsActive(false);
+			retract(transaction);
+		}
+end
+

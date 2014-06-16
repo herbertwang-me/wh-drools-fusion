@@ -1,0 +1,70 @@
+#created on: 2014-5-26
+package com.ibm.its.df.test
+
+import com.rating.hour.RatingRuleTimeWIndowDtableTest.Transaction;
+import com.rating.hour.RatingRuleTimeWIndowDtableTest.Statistic;
+import java.util.*;
+import java.sql.*;
+
+#list any import classes here.
+
+declare Transaction 
+ @role( event ) 
+ @timestamp(txTime)
+end
+
+declare Statistic 
+ @role( event ) 
+end
+
+rule 'default rule'
+	when
+		#conditions
+	then 
+		#actions
+		System.out.println("default flow from time window");
+end
+
+rule 'default Statistic rule'
+	salience 11
+	when
+		#conditions
+		stat:Statistic()
+	then 
+		#actions
+		List<Transaction> transactions = stat.getTransactions();
+		for(Transaction trn: transactions){
+			retract(trn);
+		}
+		retract(stat);
+		System.out.println("default Statistic!!");
+end
+
+rule 'checked hour rule'
+	salience 20
+	when
+		#conditions
+		$tran: Transaction($lpn: lpn, $curTxTime: txTime, checked == false)
+	then 
+		#actions
+		$tran.setChecked(true);
+		System.out.println("set checked");
+		//retract($tran);
+end
+
+rule 'collect in of hour rule'
+	salience 30
+	when
+		#conditions
+		$tran: Transaction($lpn: lpn, $curTxTime: txTime.time, isActive == true, checked == false)
+		$minTime: Number(this before[1h] $curTxTime ) from accumulate(Transaction($txTime: txTime,lpn == $lpn, isActive == true), min( $txTime.getTime() ) )  
+		$trans: ArrayList(size > 0 ) from collect( Transaction(lpn == $lpn, isActive == true, txTime.time < ($minTime  + (1000 * 60 * 60) ) ) )#txTime after[0s, 1h] $minTime
+	then 
+		#actions
+		Statistic s = new Statistic();
+		s.setTransactions($trans);
+		System.out.println("set in one hour inactive");
+		insert(s);
+		//retract($tran);
+end
+
